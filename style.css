@@ -3,124 +3,84 @@ html, body {
   padding: 0;
 }
 
-.content {
-  /* position: relative;
-  z-index: 1; 
-  background-color: #947b5d;
-  overflow: auto; */
+.container {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: auto; /* Enable scrolling for the grid */
+  overflow: auto; /
 }
 
 #p5-canvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; /* Place it behind other elements */
+  z-index: -1; 
 }
 
-.wrapper {
+.grid {
   position: relative;
   display: grid;
-  grid-template-columns: 3fr 5fr 1fr;
-  grid-template-rows: 1fr 3fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-template-columns: minmax(200px,2fr) 100px minmax(500px,5fr) minmax(200px,2fr);
+  grid-template-rows: minmax(100px,1fr) repeat(10, minmax(100px,3fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
   z-index: 1;
-  align-items: stretch;
-
-  /* background-color: black; */
 }
 
-.letter {
-  background-color: #746D69;
+.blankCell {
+  opacity: 0.9;
+  background-color: #9A9A9A;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   font-size: 70px;
-  color: white;
+  color: #696969;
   line-height: 1;
   font-family: 'hobeaux-rococeaux-background', Helvetica;
   font-weight: 200;
-  cursor: pointer;
   transition: all .3s ease;
 }
 
-.profile {
-  background-color: #BBBCB6;
-  display: flex;
-  justify-content:right;
-  align-items: center;
-  padding: 20px;
-  font-size: 70px;
-  color: white;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
+.profileCell {
+  background-color: #DCDCDC;
+
 }
 
-.projectTitle {
-  background-color: #ACADA8;
-  display: flex;
-  justify-content:right;
-  align-items:center;
-  padding: 20px;
-  font-size: 70px;
-  color: white;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
+.projectTitleCell {
+  background-color: #808080;
+  font-size: 42px;
+
+  
 }
 
-
-.projectDesc p {
-  background-color: #746D69;
-  display: flex;
-  justify-content:left;
-  align-items:start;
-  padding: 5px;
+.smallText {
   font-size: 16px;
-  color: white;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
-}
-
-
-.blankPanel {
-  background-color: #746D69;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 20px;
-  font-size: 16px;
-  color: #8c827e;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
   display: block;
+  color: #DCDCDC;
+
 }
 
-.imagePanel img{
-  background-color: #E8E9Eb;
+.resizable-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto; 
+  object-fit: contain; 
+}
+
+
+
+
+
+
+.rotated-text {
+  transform: rotate(90deg); /* Adjust for browser compatibility */
+  font-size: 48px;
+}
+
+.distribute {
   display: flex;
-  padding: 0px;
-  cursor: pointer;
-  max-width: 100%; /* Set maximum width to fill the grid cell */
-  height: auto; /* Maintain aspect ratio */
-  display: block;
-  margin: 0 auto; /* Center the image if needed */
-  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
 }
-

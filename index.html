@@ -9,62 +9,120 @@
 
 </head>
 <body>
-    <div class="content">
 
-        <div id="p5-canvas">
+  <div class="container">
+
+    <div id="p5-canvas"></div>
+
+    <div class="grid">
+      <div class="blankCell profileCell">Harry Denis Foley</div>
+      <div class="blankCell">
+        <div class="rotated-text">
+          Technologies
         </div>
-        
-        <main>
-          <div class='wrapper'>
-            <div class='profile'>
-              Harry Denis Foley
-            </div>
-            <div class='letter'>
-              Portfolio
-            </div>
-            <div class='blankPanel'>
-              <p>BEng Electronic & Computer Engineering Class of 2021</p>
-              <p>MSc Music & Acoustic Engineering Class of 2024</p>
-            </div>
-            <div class="projectTitle">
-              Final Year Project: 
-              True Polyphonic Expandable Voice Synthesiser
-            </div>
-            <div class="blankPanel">
-              <div class="imagePanel">
-                <img src="media/images/fyp1.jpg" alt="f y p">
-              </div>
-            </div>
-            <div class="projectDesc">
-              <p>This ways my Final Year Project and Thesis for my Bachelors in electronic and Computer Engineering</p>
-              <p>Completed in May 2021</p>
-              <p>Teensy Based</p>
-              <p>Technologies used: BULLET POINTS IN HERE</p>
-            </div>
+      </div>
+      <div class="blankCell">Portfolio</div>
 
-            <div class="projectTitle">
-              SERG: Shifting Euclidean Rhythm Generator
-            </div>
+      <div class="blankCell smallText distribute">
+        <p>BEng Electronic & Computer Engineering [Class of 2021]</p>
+        <p>MSc Music & Acoustic Engineering [Class of 2024]</p>
+      </div>
 
-              <div class="imagePanel">
-                <img src="media/images/serg.png" alt="f y p">
-              </div>
+      <div class="blankCell projectTitleCell">
+        True Polyphonic Expandable Voice Synth
+      </div>
+      <div class="blankCell smallText distribute">
+        <p>Audio</p>
+        <p>MIDI</p>
+        <p>C/C++</p>
+        <p>PureData</p>
+        <p>Arduino</p>
+        <p>Teensy</p>
+        <p>Prototype</p>
+      </div>
+      <div class="blankCell">
+        <img src="media/images/fyp1.jpg" alt="FYP" class="resizable-image">
+      </div>
+      <div class="blankCell smallText distribute">
+        <p>BEng Final Year Project</p>
 
-            <div class="projectDesc">
-              <p>This might be my favourite project</p>
-              <p>Completed in January 2023</p>
-              <p>SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.</p>
-              <p>It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase</p>
-              <p>This simple principle is amazing at producing some very unique feeling rhythmic pieces as the two rhythms go in and out of phase. There is a push-pull effect felt as syncopation is intermittently introduced. It is this concept of shifting a rhythm over time that our project is based on.
-              </p>
-            </div>
+        <p>Digital Synthesizer concept that can grow with player's needs and budget</p>
 
-          </div>
-        </main>
-        <footer>
-            <!-- Footer content -->
-        </footer>
+        <p>Modular design allowing the user to increase the
+          number of notes that can be played simultaneously through the addition of modules.</p>
+
+        <p>The two Voice Modules, act as individual monophonic
+          synthesizers and a Central Console, which is used to combine multiple Voice Modules.</p>
+
+        <p>Each
+          Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine
+          built using the Teensy Audio Library. The Central Console both routes MIDI messages to the
+          Voice Modules and mixes their audio signals to create an instrument that behaves as one
+          polyphonic instrument.</p>
+      </div>
+      <div class="blankCell projectTitleCell">SERG</div>
+      <div class="blankCell smallText distribute">
+        <p>WebApp</p>
+        <p>Audio</p>
+        <p>MIDI</p>
+        <p>P5.js</p>
+        <p>HTML</p>
+        <p>Javascript</p>
+        <p>CSS</p>
+      </div>
+      <div class="blankCell">
+
+        <img src="media/images/serg.png" alt="SERG" class="resizable-image">
+
+      </div>
+      <div class="blankCell smallText distribute">
+        <p>Shifting Euclidean Rhythm Generator</p>
+        <p>SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.</p>
+        <p>It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.</p>
+        <p>SERG has two sets of phase shifting rhythms that are played in sync.</p>
+        <!-- <p>The base rhythm for each set is generated by a euclidean rhythm. The onsets and pulses can be set independantly for each set. The user can also select between two different synths and three different percussion samples for each track.</p> -->
+        <!-- <p>On the right of the screen are parameters related to the melodic composition. A user can chose a scale by selecting the root note and scale mode. The user can also select "Flavour Notes". Flavour notes are the notes of a scale apart from the root note. By selecting 3 and 5 for example if we are working in C major the flavour notes are E and G. "Flavour %" selects the probabilty of one of these flavour notes being played.</p> -->
+      </div>
+
+      <div class="blankCell projectTitleCell">Swarm Composition Test 2</div>
+      <div class="blankCell smallText distribute">
+        <p>Open-Frameworks</p>
+        <p>OSC</p>
+        <p>Ableton</p>
+        <p>Boid</p>
+        <p>Midi</p>
+      </div>
+      <div class="blankCell">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscree ></iframe>
+      </div>
+      <div class="blankCell smallText distribute">
+        <p>Shifting Euclidean Rhythm Generator</p>
+        <p>SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.</p>
+        <p>It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.</p>
+        <p>SERG has two sets of phase shifting rhythms that are played in sync.</p>
+      </div>
+
+      <div class="blankCell projectTitleCell">DJ Mix Visualizer</div>
+      <div class="blankCell smallText distribute">
+        <p>Open-Frameworks</p>
+        <p>OSC</p>
+        <p>Audio Reactive</p>
+        <p>Boid</p>
+        <p>Midi</p>
+      </div>
+      <div class="blankCell">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="blankCell smallText distribute">
+        <p>Shifting Euclidean Rhythm Generator</p>
+        <p>SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.</p>
+        <p>It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.</p>
+        <p>SERG has two sets of phase shifting rhythms that are played in sync.</p>
+      </div>
+
+      
     </div>
+  </div>
     <script src="sketch.js"></script>
 </body>
 </html>

@@ -1,13 +1,12 @@
 function setup() {
-  // Create a full-size canvas
   let sketch = createCanvas(windowWidth, windowHeight);
   sketch.position(0, 0); 
-  sketch.style('z-index', '-1'); // Set z-index to place behind other elements
+  sketch.style('z-index', '-1'); 
   sketch.parent('p5-canvas');
 }
 
 function draw() {
-  background(200,22, 22); 
+  background(22,22, 22); 
   ellipse(mouseX, mouseY, 200, 200);
 }
 
