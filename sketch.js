@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(22,22, 22); 
+  background(0,0, 0); 
   noStroke();
   ellipse(mouseX, mouseY, 200, 200);
   ellipse(windowWidth - mouseX, windowHeight -mouseY, 200, 200);
