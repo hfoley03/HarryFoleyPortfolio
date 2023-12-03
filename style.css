@@ -1,13 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-width: 1000px; /* Minimum width */
+  min-height: 150px; /* Minimum height */
 }
 
 .container {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: auto; /
+  overflow: auto; 
+
 }
 
 #p5-canvas {
@@ -20,7 +23,7 @@ html, body {
 .grid {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(200px,2fr) 100px minmax(500px,5fr) minmax(200px,2fr);
+  grid-template-columns: minmax(250px,2fr) 100px minmax(500px,5fr) minmax(200px,2fr);
   grid-template-rows: minmax(100px,1fr) repeat(10, minmax(100px,3fr));
   grid-column-gap: 50px;
   grid-row-gap: 50px;
