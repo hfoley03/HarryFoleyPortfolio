@@ -91,5 +91,19 @@ html, body {
 .distribute {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+/* Apply styles to the video container */
+.video-container {
+  width: 100%; /* Set the width of the video container */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the video horizontally */
+}
+
+/* Apply styles to the video element */
+video {
+  width: 100%; /* Set video width to 100% */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Make the video a block element */
 }
