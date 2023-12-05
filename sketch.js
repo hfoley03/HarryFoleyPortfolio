@@ -1,8 +1,11 @@
 function setup() {
+  console.log('p5-canvas'); // Print canvasWidth to the console
+
   let sketch = createCanvas(windowWidth, windowHeight);
   sketch.position(0, 0); 
   sketch.style('z-index', '-1'); 
   sketch.parent('p5-canvas');
+
 }
 
 function draw() {
@@ -16,7 +19,7 @@ function draw() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  // console.log('Window Width:', windowWidth); // Print canvasWidth to the console
+  console.log('Window Width:', windowWidth); // Print canvasWidth to the console
 
 }
 

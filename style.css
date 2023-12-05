@@ -30,9 +30,19 @@ html, body {
   z-index: 1;
 }
 
+.grid > .subgrid {
+  grid-column: span 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-template-columns: subgrid; /* 20ch 1fr */
+}
+
 .blankCell {
   opacity: 0.9;
-  background-color: #9A9A9A;
+  /* background-color: #9A9A9A; */
+  background-color: #333333;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +57,21 @@ html, body {
 
 .profileCell {
   background-color: #DCDCDC;
+}
 
+.profileCell a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent (.profileCell) */
+  cursor: pointer; /* Optionally change cursor to pointer on hover */
+}
+
+/* Remove the default link styles */
+.profileCell a:link,
+.profileCell a:visited,
+.profileCell a:hover,
+.profileCell a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .projectTitleCell {
@@ -69,6 +93,7 @@ html, body {
   font-size: 20px;
   display: block;
   color: #DCDCDC;
+  align-items: start;
 
 }
 
@@ -81,8 +106,19 @@ html, body {
   object-fit: contain; 
 }
 
+.colour1 {
+  background-color: 	#b4b4b4;
+}
 
+.colour2 {
+  background-color: #DCDCDC;
+  color: #696969;
 
+}
+
+.textCol1 {
+  color: #DCDCDC;
+}
 
 
 
