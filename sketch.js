@@ -12,6 +12,7 @@ function draw() {
   let s = 100 + abs(windowWidth/2 - mouseX);
   background(0,0, 0); 
   noStroke();
+  fill(255,100,0);
   ellipse(mouseX, mouseY, s, s);
   ellipse(windowWidth - mouseX, windowHeight -mouseY, s, s);
 

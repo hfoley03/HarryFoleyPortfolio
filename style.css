@@ -24,18 +24,29 @@ html, body {
   position: relative;
   display: grid;
   grid-template-columns: minmax(250px,2fr) 100px minmax(500px,5fr) minmax(200px,2fr);
-  grid-template-rows: minmax(100px,1fr) repeat(10, minmax(100px,3fr));
+  grid-template-rows: minmax(100px,1fr) [banner] 50px repeat(10, minmax(100px,3fr));
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   z-index: 1;
 }
 
-.grid > .subgrid {
-  grid-column: span 1;
-  grid-row: 2;
+#contact {
+  grid-column: 1 / span 4; /* Spanning across 4 columns */
   display: grid;
-  grid-template-rows: subgrid;
-  grid-template-columns: subgrid; /* 20ch 1fr */
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center; /* Center vertically */
+
+}
+
+#contact p {
+  text-align: center; /* Center-align paragraphs */
+  margin: 0;
+}
+
+.contact a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent (.profileCell) */
+  cursor: pointer; /* Optionally change cursor to pointer on hover */
 }
 
 .blankCell {
