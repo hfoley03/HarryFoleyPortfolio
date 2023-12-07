@@ -33,7 +33,7 @@ html, body {
 #contact {
   grid-column: 1 / span 4; /* Spanning across 4 columns */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   align-items: center; /* Center vertically */
 
 }
@@ -50,9 +50,9 @@ html, body {
 }
 
 .blankCell {
-  opacity: 0.9;
+  opacity: 0.95;
   /* background-color: #9A9A9A; */
-  background-color: #333333;
+  background-color: #494848;
 
   display: flex;
   justify-content: center;
@@ -115,6 +115,8 @@ html, body {
   height: auto;
   width: auto; 
   object-fit: contain; 
+  opacity: 1.0;
+
 }
 
 .colour1 {
@@ -122,7 +124,7 @@ html, body {
 }
 
 .colour2 {
-  background-color: #DCDCDC;
+  background-color: #a9ccc8;
   color: #696969;
 
 }
