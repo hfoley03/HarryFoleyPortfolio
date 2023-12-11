@@ -50,7 +50,7 @@ html, body {
 }
 
 .blankCell {
-  opacity: 0.95;
+  opacity: 0.90;
   /* background-color: #9A9A9A; */
   background-color: #494848;
 
@@ -119,12 +119,16 @@ html, body {
 
 }
 
+.alphaOverride {
+  opacity: 1.0;
+}
+
 .colour1 {
   background-color: 	#b4b4b4;
 }
 
 .colour2 {
-  background-color: #a9ccc8;
+  background-color: #bacac8;
   color: #696969;
 
 }

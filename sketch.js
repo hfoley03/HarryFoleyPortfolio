@@ -40,27 +40,33 @@ function setup() {
 function draw() {
   background(0);
 
-  let s = 400 + abs(windowWidth/2 - mouseX);
+  let s = windowHeight/5 + abs(windowWidth/2 - mouseX);
   noStroke();
   fill(255);
 
   if(myCapture !== null && myCapture !== undefined) { // safety first
 
+    // gfx.background(0);
+    // gfx.image(myCapture, 0, 0, gfx.width, gfx.height);
+    // gfx.filter(POSTERIZE, 5);
+    // ascii_arr = myAsciiArt.convert(gfx);
+    // fill(194, 242, 237,125);
+    // let ss = 200 + abs(windowWidth/2-mouseX)/2;
+    // myAsciiArt.typeArray2d(ascii_arr, this, mouseX - ss, mouseY - ss, s,s);
+    // myAsciiArt.typeArray2d(ascii_arr, this, windowWidth - mouseX - ss, windowHeight - mouseY - ss, s,s);
     gfx.background(0);
     gfx.image(myCapture, 0, 0, gfx.width, gfx.height);
     gfx.filter(POSTERIZE, 5);
     ascii_arr = myAsciiArt.convert(gfx);
-    fill(194, 242, 237,125);
-    let ss = 200 + abs(windowWidth/2-mouseX)/2;
-    myAsciiArt.typeArray2d(ascii_arr, this, mouseX - ss, mouseY - ss, s,s);
-    myAsciiArt.typeArray2d(ascii_arr, this, windowWidth - mouseX - ss, windowHeight - mouseY - ss, s,s);
+    fill(194, 242, 237,200);
+    myAsciiArt.typeArray2d(ascii_arr, this, 0,0, windowWidth,windowHeight);
   }
-  else {
-    fill(194, 242, 237,125);
 
-      ellipse(mouseX, mouseY, s, s);
-      ellipse(windowWidth - mouseX, windowHeight -mouseY, s, s);
-  }
+  fill(255, 255, 255,75);
+
+  ellipse(mouseX, mouseY, s, s);
+  ellipse(windowWidth - mouseX, windowHeight -mouseY, s, s);
+  
 
 }
 
