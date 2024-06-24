@@ -1,7 +1,52 @@
 [
     {
-      "title": "Japanese Boy Racer Fantasy Visualizer",
-      "technologies": ["Open-Frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
+        "title": "Music & Art Therapy: Thesis",
+        "technologies": ["Augmented Reality", "Hololens 2", "Unity", "Generative Music", "HCI"],
+        "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
+        "description": [
+          "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
+          "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
+          "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
+        ],
+        "bgColor": "colour2"
+      },
+    {
+        "title": "Future Worlds: Museum Installation",
+        "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visualisation"],
+        "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
+        "description": [
+          "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
+          "The user can select between three different possible outcomes for our planet and explore these through visiting different cities watching our planet blossom or decay.",
+          "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population"
+        ],
+        "bgColor": "colour2"
+      },
+      {
+        "title": "Phone-Sampler: Mobile App",
+        "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
+        "image": "media/images/Mobile.png",
+        "description": [
+          "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
+          "Users can record, browse and edit samples from apps such as Instagram and Youtube",
+          "Integrates with freesound.org API to allow users to upload their samples and browse for new ones directly in the app"
+        ],
+        "bgColor": "colour2"
+      },
+      {
+        "title": "Video Manipulation: Experiment",
+        "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
+        "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
+        "description": [
+          "Quick experiments processing live video with Openframeworks.",
+          "I was curious one afternoon about manipulating blocks of pixels from live video to new locations on screen.",
+          "The blocks retain a position on screen similar to where they are located in the input video, some noise is added to their position for effect.",
+          "Having realtime control over the size of these blocks and the rate that they refresh leads to interesting results."
+        ],
+        "bgColor": "colour2"
+      },  
+    {
+      "title": "Street Racing: Visualizer",
+      "technologies": ["Open-frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
       "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
       "description": [
         "Generative Audio Visualizer",
@@ -14,22 +59,22 @@
       "bgColor": "colour2"
     },
     {
-      "title": "Swarm Composition Test 2",
-      "technologies": ["Open-Frameworks", "OSC", "Ableton", "Boid", "Midi"],
+      "title": "Swarm Composition Test 2: Experiment",
+      "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
       "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
       "description": [
         "Generative Audio Visual Experiment",
-        "Created while teaching myself Open-Frameworks",
+        "Created while teaching myself Openframeworks",
         "Designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
         "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
         "The message contains velocity and direction information which is then mapped to volume and panning of the musical note",
         "Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
       ],
-      "bgColor": ""
+      "bgColor": "colour2"
     },
     {
-      "title": "Swarm Composition Test 3",
-      "technologies": ["Open-Frameworks", "OSC", "Ableton", "Boid", "Midi"],
+      "title": "Swarm Composition Test 3: Experiment",
+      "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
       "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
       "description": [
         "Another Generative Audio Visual Experiment",
@@ -39,18 +84,29 @@
       "bgColor": "colour2"
     },
     {
-      "title": "DJ Mix Visualizer",
-      "technologies": ["Open-Frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
+        "title": "Valentine's DJ Mix: Visualizer",
+        "technologies": ["Open-frameworks", "Audio Reactive", "Perlin Noise", "FFT"],
+        "video": "https://www.youtube.com/embed/2flFLtcKpk4?si=tH1okfeBUSXmZ06O",
+        "description": [
+          "Music visualizer for Valentine's DJ Mix.",
+          "I researched various trigonometric equations to find one suitable for a love heart. Each heart on the screen corresponds to a frequency band.",
+          "I wanted to give the impression of the hearts being made out of waveforms so I added Perlin noise to the points of the polylines and modulated the variables of the noise through the frequency band amplitudes."
+        ],
+        "bgColor": "colour2"
+      },
+    {
+      "title": "Ambient DJ Mix: Visualizer",
+      "technologies": ["Open-frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
       "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
       "description": [
         "Music visualizer for a DJ set I submitted to NTS radio under the theme of dreams",
         "The visual piece extends work I had previously done with swarms and boids",
         "New functionality was added to allow the visuals to be manipulated live"
       ],
-      "bgColor": ""
+      "bgColor": "colour2"
     },
     {
-      "title": "Baby I am For Real Music Artwork",
+      "title": "Baby I am For Real: Music Artwork",
       "technologies": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
       "image": "media/images/forreal.png",
       "description": [
@@ -62,18 +118,18 @@
       "bgColor": "colour2"
     },
     {
-      "title": "Open Frameworks Album Animator",
-      "technologies": ["Open-Frameworks", "Video", "InstagramAPI"],
-      "video": "https://www.youtube.com/embed/J_ZJCBfyvsU?si=LK0Kw92YGLQOTNOt",
+      "title": "Instagram Eyes: Experiment",
+      "technologies": ["Open-frameworks", "InstagramAPI", "Python"],
+      "image": "media/images/eyes.jpg",
       "description": [
-        "Experimenting with Open-Frameworks in C++",
-        "A friend of mine shot some rolls of Black & White film on holiday and wanted a video of them created for Instagram Reels",
-        "Pictures were downloaded using Python with InstagramAPI, processed and sorted in terms of likeness before being animated"
+        "I thought it was interesting that we many of us collect photos we see on Instagram by saving. This collection is personal and reflects what we find aesthetically pleasing.",
+        "I decided to use the InstagramAPI to download the 1000s of posts I have saved and experiment on them. I used Python code to identify all pictures with faces and then to make new images cropped to these faces. I also used Python to find the coordinates of various facial features.",
+        "In this experiment I used to the eye positions of images to create an overlapping and mirroring effect in Openframeworks."
       ],
-      "bgColor": ""
+      "bgColor": "colour2"
     },
     {
-      "title": "Shifting Euclidean Rhythm Generator",
+      "title": "Shifting Euclidean Rhythm Generator: Web App",
       "technologies": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
       "image": "media/images/serg.png",
       "description": [
@@ -84,22 +140,9 @@
       ],
       "bgColor": "colour2"
     },
+
     {
-      "title": "True Polyphonic Expandable Voice Synth",
-      "technologies": ["Audio", "MIDI", "C/C++", "PureData", "Arduino", "Teensy", "Prototype"],
-      "image": "media/images/fyp1.jpg",
-      "description": [
-        "BEng Final Year Project",
-        "Digital Synthesizer concept that can grow with player's needs & budget",
-        "Modular design allowing the user to increase the number of notes that can be played simultaneously through the addition of modules.",
-        "The two Voice Modules act as individual monophonic synthesizers and a Central Console, which is used to combine multiple Voice Modules.",
-        "Each Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine.",
-        "The Central Console routes MIDI messages to the Voice Modules and mixes their audio signals to create an instrument that behaves as one polyphonic instrument."
-      ],
-      "bgColor": ""
-    },
-    {
-      "title": "SuperCollider Didactic Tool for Distortion Effects",
+      "title": "SuperCollider Distortion Effects: Didactic Tool",
       "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
       "image": "media/images/Teach_Mode.png",
       "description": [
@@ -111,7 +154,7 @@
       "bgColor": "colour2"
     },
     {
-      "title": "M-RAM",
+      "title": "M-RAM: Installation",
       "technologies": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
       "image": "media/images/MRAM.png",
       "description": [
