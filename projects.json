@@ -1,0 +1,125 @@
+[
+    {
+      "title": "Japanese Boy Racer Fantasy Visualizer",
+      "technologies": ["Open-Frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
+      "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
+      "description": [
+        "Generative Audio Visualizer",
+        "Made for promotion material for my music",
+        "Uses computer vision to identify visual points, 'blobs', in the videos",
+        "Geometric Shapes are placed on these blobs",
+        "The shapes' colour is given by the average pixel values of the blobs",
+        "FFT of the audio is used to control the shapes' size"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "title": "Swarm Composition Test 2",
+      "technologies": ["Open-Frameworks", "OSC", "Ableton", "Boid", "Midi"],
+      "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
+      "description": [
+        "Generative Audio Visual Experiment",
+        "Created while teaching myself Open-Frameworks",
+        "Designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
+        "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
+        "The message contains velocity and direction information which is then mapped to volume and panning of the musical note",
+        "Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
+      ],
+      "bgColor": ""
+    },
+    {
+      "title": "Swarm Composition Test 3",
+      "technologies": ["Open-Frameworks", "OSC", "Ableton", "Boid", "Midi"],
+      "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
+      "description": [
+        "Another Generative Audio Visual Experiment",
+        "Again modelling swarm behaviour but shifting the focus to the connection between the boids instead of the boids themselves",
+        "This change in focus created very beautiful surprising and dynamic shapes"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "title": "DJ Mix Visualizer",
+      "technologies": ["Open-Frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
+      "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
+      "description": [
+        "Music visualizer for a DJ set I submitted to NTS radio under the theme of dreams",
+        "The visual piece extends work I had previously done with swarms and boids",
+        "New functionality was added to allow the visuals to be manipulated live"
+      ],
+      "bgColor": ""
+    },
+    {
+      "title": "Baby I am For Real Music Artwork",
+      "technologies": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
+      "image": "media/images/forreal.png",
+      "description": [
+        "Artwork created for a single released for my music under the name AiK HiFi",
+        "The artwork was created using a Self-Similarity Matrix, a musical analysis technique",
+        "An SSM works by comparing each element of a feature sequence with all other elements, recurring patterns become visible along the diagonal of the picture",
+        "This is useful for identify the musical structure of a piece, helping to identify choruses and verses for example"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "title": "Open Frameworks Album Animator",
+      "technologies": ["Open-Frameworks", "Video", "InstagramAPI"],
+      "video": "https://www.youtube.com/embed/J_ZJCBfyvsU?si=LK0Kw92YGLQOTNOt",
+      "description": [
+        "Experimenting with Open-Frameworks in C++",
+        "A friend of mine shot some rolls of Black & White film on holiday and wanted a video of them created for Instagram Reels",
+        "Pictures were downloaded using Python with InstagramAPI, processed and sorted in terms of likeness before being animated"
+      ],
+      "bgColor": ""
+    },
+    {
+      "title": "Shifting Euclidean Rhythm Generator",
+      "technologies": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
+      "image": "media/images/serg.png",
+      "description": [
+        "Shifting Euclidean Rhythm Generator Web App",
+        "SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.",
+        "It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.",
+        "SERG has two sets of phase shifting rhythms that are played in sync."
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "title": "True Polyphonic Expandable Voice Synth",
+      "technologies": ["Audio", "MIDI", "C/C++", "PureData", "Arduino", "Teensy", "Prototype"],
+      "image": "media/images/fyp1.jpg",
+      "description": [
+        "BEng Final Year Project",
+        "Digital Synthesizer concept that can grow with player's needs & budget",
+        "Modular design allowing the user to increase the number of notes that can be played simultaneously through the addition of modules.",
+        "The two Voice Modules act as individual monophonic synthesizers and a Central Console, which is used to combine multiple Voice Modules.",
+        "Each Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine.",
+        "The Central Console routes MIDI messages to the Voice Modules and mixes their audio signals to create an instrument that behaves as one polyphonic instrument."
+      ],
+      "bgColor": ""
+    },
+    {
+      "title": "SuperCollider Didactic Tool for Distortion Effects",
+      "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
+      "image": "media/images/Teach_Mode.png",
+      "description": [
+        "The project brief was to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of distortion",
+        "Created a tool that can be used in two modes, Learn and Teach",
+        "Learn mode to be used by a novice student to learn the basic principles of the audio effect",
+        "Teach mode to be used by a Teacher to demonstrate a greater number of more technical aspects of distortion"
+      ],
+      "bgColor": "colour2"
+    },
+    {
+      "title": "M-RAM",
+      "technologies": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
+      "image": "media/images/MRAM.png",
+      "description": [
+        "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
+        "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
+        "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it. He felt that indoor environments should have music that \"induce calm and a space to think\" while remaining \"as ignorable as it is interesting\""
+      ],
+      "bgColor": "colour2"
+    }
+  ]
+  
