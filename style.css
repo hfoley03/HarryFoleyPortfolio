@@ -52,22 +52,24 @@ html, body {
 .blankCell {
   opacity: 0.90;
   /* background-color: #9A9A9A; */
-  background-color: #494848;
+  background-color: #37392E;
 
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   font-size: 70px;
-  color: #696969;
+  color: #37392E;
   line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
+  font-family: 'Fira Code';
   font-weight: 200;
   transition: all .3s ease;
 }
 
 .profileCell {
-  background-color: #DCDCDC;
+  background-color: #37392E;
+  color: #9DCBBA;
+
 }
 
 .profileCell a {
@@ -86,8 +88,8 @@ html, body {
 }
 
 .projectTitleCell {
-  background-color: #808080;
-  color: #DCDCDC;
+  background-color: #AA767C;
+  color: #37392E;
   font-size: 42px;
 
   
@@ -96,14 +98,14 @@ html, body {
 .smallText {
   font-size: 16px;
   display: block;
-  color: #DCDCDC;
+  color: #9DCBBA;
 
 }
 
 .mediumText {
   font-size: 20px;
   display: block;
-  color: #DCDCDC;
+  color: #37392E;
   align-items: start;
 
 }
@@ -129,12 +131,12 @@ html, body {
 
 .colour2 {
   background-color: #bacac8;
-  color: #696969;
+  color: #37392E;
 
 }
 
 .textCol1 {
-  color: #DCDCDC;
+  color: #9DCBBA;
 }
 
 
