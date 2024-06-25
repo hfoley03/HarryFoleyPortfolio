@@ -11,7 +11,7 @@
         "bgColor": "colour2"
       },
     {
-        "title": "Future Worlds: Museum Installation",
+        "title": "Future Worlds: Museum Install-ation",
         "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visualisation"],
         "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
         "description": [
@@ -33,7 +33,7 @@
         "bgColor": "colour2"
       },
       {
-        "title": "Video Manipulation: Experiment",
+        "title": "Video Manipu-lation: Experiment",
         "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
         "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
         "description": [
@@ -59,7 +59,7 @@
       "bgColor": "colour2"
     },
     {
-      "title": "Swarm Composition Test 2: Experiment",
+      "title": "Swarm Comp Test 2: Experiment",
       "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
       "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
       "description": [
@@ -73,7 +73,7 @@
       "bgColor": "colour2"
     },
     {
-      "title": "Swarm Composition Test 3: Experiment",
+      "title": "Swarm Comp Test 3: Experiment",
       "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
       "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
       "description": [
@@ -142,7 +142,7 @@
     },
 
     {
-      "title": "SuperCollider Distortion Effects: Didactic Tool",
+      "title": "Super-Collider Distortion Effects: Didactic Tool",
       "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
       "image": "media/images/Teach_Mode.png",
       "description": [

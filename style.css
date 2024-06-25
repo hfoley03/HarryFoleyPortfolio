@@ -68,17 +68,16 @@ html, body {
 
 .profileCell {
   background-color: #37392E;
-  color: #9DCBBA;
+  color: #bacac8;
 
 }
 
 .profileCell a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color from parent (.profileCell) */
-  cursor: pointer; /* Optionally change cursor to pointer on hover */
+  text-decoration: none; 
+  color: inherit; 
+  cursor: pointer; 
 }
 
-/* Remove the default link styles */
 .profileCell a:link,
 .profileCell a:visited,
 .profileCell a:hover,
@@ -90,15 +89,14 @@ html, body {
 .projectTitleCell {
   background-color: #AA767C;
   color: #37392E;
-  font-size: 42px;
-
+  font-size: 36px;
   
 }
 
 .smallText {
   font-size: 16px;
   display: block;
-  color: #9DCBBA;
+  color: #bacac8;
 
 }
 
@@ -136,13 +134,13 @@ html, body {
 }
 
 .textCol1 {
-  color: #9DCBBA;
+  color: #bacac8;
 }
 
 
 
 .rotated-text {
-  transform: rotate(90deg); /* Adjust for browser compatibility */
+  transform: rotate(90deg); 
   font-size: 32px;
 }
 
@@ -150,18 +148,4 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-/* Apply styles to the video container */
-.video-container {
-  width: 100%; /* Set the width of the video container */
-  max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the video horizontally */
-}
-
-/* Apply styles to the video element */
-video {
-  width: 100%; /* Set video width to 100% */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Make the video a block element */
 }

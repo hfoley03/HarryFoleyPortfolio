@@ -8,7 +8,7 @@ function setup() {
   frameRate(30);
 
   // Create initial set of boids
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 250; i++) {
     boids.push(new Boid(random(windowWidth), random(windowHeight)));
   }
 }
@@ -21,8 +21,8 @@ function draw() {
   fill(170, 118, 125, 100);
 
 
-  ellipse(mouseX, mouseY, s, s);
-  ellipse(windowWidth - mouseX, windowHeight - mouseY, s, s);
+  //ellipse(mouseX, mouseY, s, s);
+  //ellipse(windowWidth - mouseX, windowHeight - mouseY, s, s);
 
   for (let boid of boids) {
     boid.update();
@@ -41,7 +41,7 @@ class Boid {
     this.velocity = p5.Vector.random2D();
     this.acceleration = createVector(0, 0);
     this.maxSpeed = 10;
-    this.maxForce = 0.1;
+    this.maxForce = 1;
   }
 
   update() {
@@ -74,6 +74,6 @@ class Boid {
 
   show() {
     fill(170, 118, 125);
-    ellipse(this.position.x, this.position.y, 20, 20);
+    rect(this.position.x, this.position.y, 10, 10);
   }
 }
