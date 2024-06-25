@@ -1,168 +1,166 @@
 [
-    {
-        "title": "Music & Art Therapy: Thesis",
-        "technologies": ["Augmented Reality", "Hololens 2", "Unity", "Generative Music", "HCI"],
-        "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
-        "description": [
-          "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
-          "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
-          "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
-        ],
-        "bgColor": "colour2"
-      },
-    {
-        "title": "Future Worlds: Museum Install-ation",
-        "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visualisation"],
-        "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
-        "description": [
-          "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
-          "The user can select between three different possible outcomes for our planet and explore these through visiting different cities watching our planet blossom or decay.",
-          "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population"
-        ],
-        "bgColor": "colour2"
-      },
-      {
-        "title": "Phone-Sampler: Mobile App",
-        "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
-        "image": "media/images/Mobile.png",
-        "description": [
-          "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
-          "Users can record, browse and edit samples from apps such as Instagram and Youtube",
-          "Integrates with freesound.org API to allow users to upload their samples and browse for new ones directly in the app"
-        ],
-        "bgColor": "colour2"
-      },
-      {
-        "title": "Video Manipu-lation: Experiment",
-        "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
-        "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
-        "description": [
-          "Quick experiments processing live video with Openframeworks.",
-          "I was curious one afternoon about manipulating blocks of pixels from live video to new locations on screen.",
-          "The blocks retain a position on screen similar to where they are located in the input video, some noise is added to their position for effect.",
-          "Having realtime control over the size of these blocks and the rate that they refresh leads to interesting results."
-        ],
-        "bgColor": "colour2"
-      },  
-    {
-      "title": "Street Racing: Visualizer",
-      "technologies": ["Open-frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
-      "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
-      "description": [
-        "Generative Audio Visualizer",
-        "Made for promotion material for my music",
-        "Uses computer vision to identify visual points, 'blobs', in the videos",
-        "Geometric Shapes are placed on these blobs",
-        "The shapes' colour is given by the average pixel values of the blobs",
-        "FFT of the audio is used to control the shapes' size"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "Swarm Comp Test 2: Experiment",
-      "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
-      "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
-      "description": [
-        "Generative Audio Visual Experiment",
-        "Created while teaching myself Openframeworks",
-        "Designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
-        "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
-        "The message contains velocity and direction information which is then mapped to volume and panning of the musical note",
-        "Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "Swarm Comp Test 3: Experiment",
-      "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
-      "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
-      "description": [
-        "Another Generative Audio Visual Experiment",
-        "Again modelling swarm behaviour but shifting the focus to the connection between the boids instead of the boids themselves",
-        "This change in focus created very beautiful surprising and dynamic shapes"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-        "title": "Valentine's DJ Mix: Visualizer",
-        "technologies": ["Open-frameworks", "Audio Reactive", "Perlin Noise", "FFT"],
-        "video": "https://www.youtube.com/embed/2flFLtcKpk4?si=tH1okfeBUSXmZ06O",
-        "description": [
-          "Music visualizer for Valentine's DJ Mix.",
-          "I researched various trigonometric equations to find one suitable for a love heart. Each heart on the screen corresponds to a frequency band.",
-          "I wanted to give the impression of the hearts being made out of waveforms so I added Perlin noise to the points of the polylines and modulated the variables of the noise through the frequency band amplitudes."
-        ],
-        "bgColor": "colour2"
-      },
-    {
-      "title": "Ambient DJ Mix: Visualizer",
-      "technologies": ["Open-frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
-      "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
-      "description": [
-        "Music visualizer for a DJ set I submitted to NTS radio under the theme of dreams",
-        "The visual piece extends work I had previously done with swarms and boids",
-        "New functionality was added to allow the visuals to be manipulated live"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "Baby I am For Real: Music Artwork",
-      "technologies": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
-      "image": "media/images/forreal.png",
-      "description": [
-        "Artwork created for a single released for my music under the name AiK HiFi",
-        "The artwork was created using a Self-Similarity Matrix, a musical analysis technique",
-        "An SSM works by comparing each element of a feature sequence with all other elements, recurring patterns become visible along the diagonal of the picture",
-        "This is useful for identify the musical structure of a piece, helping to identify choruses and verses for example"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "Instagram Eyes: Experiment",
-      "technologies": ["Open-frameworks", "InstagramAPI", "Python"],
-      "image": "media/images/eyes.jpg",
-      "description": [
-        "I thought it was interesting that we many of us collect photos we see on Instagram by saving. This collection is personal and reflects what we find aesthetically pleasing.",
-        "I decided to use the InstagramAPI to download the 1000s of posts I have saved and experiment on them. I used Python code to identify all pictures with faces and then to make new images cropped to these faces. I also used Python to find the coordinates of various facial features.",
-        "In this experiment I used to the eye positions of images to create an overlapping and mirroring effect in Openframeworks."
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "Shifting Euclidean Rhythm Generator: Web App",
-      "technologies": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
-      "image": "media/images/serg.png",
-      "description": [
-        "Shifting Euclidean Rhythm Generator Web App",
-        "SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.",
-        "It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.",
-        "SERG has two sets of phase shifting rhythms that are played in sync."
-      ],
-      "bgColor": "colour2"
-    },
-
-    {
-      "title": "Super-Collider Distortion Effects: Didactic Tool",
-      "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
-      "image": "media/images/Teach_Mode.png",
-      "description": [
-        "The project brief was to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of distortion",
-        "Created a tool that can be used in two modes, Learn and Teach",
-        "Learn mode to be used by a novice student to learn the basic principles of the audio effect",
-        "Teach mode to be used by a Teacher to demonstrate a greater number of more technical aspects of distortion"
-      ],
-      "bgColor": "colour2"
-    },
-    {
-      "title": "M-RAM: Installation",
-      "technologies": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
-      "image": "media/images/MRAM.png",
-      "description": [
-        "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
-        "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
-        "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it. He felt that indoor environments should have music that \"induce calm and a space to think\" while remaining \"as ignorable as it is interesting\""
-      ],
-      "bgColor": "colour2"
-    }
-  ]
-  
+  {
+  "title": "MUSIC & ART THERAPY: THESIS",
+  "technologies": ["Augmented Reality", "Hololens 2", "Unity", "Generative Music", "HCI"],
+  "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
+  "description": [
+  "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
+  "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
+  "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "FUTURE WORLDS: MUSEUM INSTALL-ATION",
+  "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visualisation"],
+  "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
+  "description": [
+  "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
+  "The user can select between three different possible outcomes for our planet and explore these through visiting different cities watching our planet blossom or decay.",
+  "Custom Cellulare Automata evolves the planet's landscape based on time series data from the model such as pollution, food, population"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "PHONE-SAMPLER: MOBILE APP",
+  "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
+  "image": "media/images/Mobile.png",
+  "description": [
+  "PhoneSampler is an Android application that allows users to record audio from other apps in their phones.",
+  "Users can record, browse and edit samples from apps such as Instagram and Youtube",
+  "Integrates with freesound.org API to allow users to upload their samples and browse for new ones directly in the app"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "VIDEO MANIPU-LATION: EXPERIMENT",
+  "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
+  "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
+  "description": [
+  "Quick experiments processing live video with Openframeworks.",
+  "I was curious one afternoon about manipulating blocks of pixels from live video to new locations on screen.",
+  "The blocks retain a position on screen similar to where they are located in the input video, some noise is added to their position for effect.",
+  "Having realtime control over the size of these blocks and the rate that they refresh leads to interesting results."
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "STREET RACING: VISUALIZER",
+  "technologies": ["Open-frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
+  "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
+  "description": [
+  "Generative Audio Visualizer",
+  "Made for promotion material for my music",
+  "Uses computer vision to identify visual points, 'blobs', in the videos",
+  "Geometric Shapes are placed on these blobs",
+  "The shapes' colour is given by the average pixel values of the blobs",
+  "FFT of the audio is used to control the shapes' size"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "SWARM COMP TEST 2: EXPERIMENT",
+  "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
+  "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
+  "description": [
+  "Generative Audio Visual Experiment",
+  "Created while teaching myself Openframeworks",
+  "Designed using Craig Reynolds 1986 approach to modelling swarm behaviour",
+  "OSC messages are sent from Open-Frameworks to Ableton when a circle collides with the edge of the frame of the video",
+  "The message contains velocity and direction information which is then mapped to volume and panning of the musical note",
+  "Normally with AV pieces the visual element is controlled by the audio, reversing this chain leads to interesting and organic results"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "SWARM COMP TEST 3: EXPERIMENT",
+  "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
+  "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
+  "description": [
+  "Another Generative Audio Visual Experiment",
+  "Again modelling swarm behaviour but shifting the focus to the connection between the boids instead of the boids themselves",
+  "This change in focus created very beautiful surprising and dynamic shapes"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "VALENTINE'S DJ MIX: VISUALIZER",
+  "technologies": ["Open-frameworks", "Audio Reactive", "Perlin Noise", "FFT"],
+  "video": "https://www.youtube.com/embed/2flFLtcKpk4?si=tH1okfeBUSXmZ06O",
+  "description": [
+  "Music visualizer for Valentine's DJ Mix.",
+  "I researched various trigonometric equations to find one suitable for a love heart. Each heart on the screen corresponds to a frequency band.",
+  "I wanted to give the impression of the hearts being made out of waveforms so I added Perlin noise to the points of the polylines and modulated the variables of the noise through the frequency band amplitudes."
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "AMBIENT DJ MIX: VISUALIZER",
+  "technologies": ["Open-frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
+  "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
+  "description": [
+  "Music visualizer for a DJ set I submitted to NTS radio under the theme of dreams",
+  "The visual piece extends work I had previously done with swarms and boids",
+  "New functionality was added to allow the visuals to be manipulated live"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "BABY I AM FOR REAL: MUSIC ARTWORK",
+  "technologies": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
+  "image": "media/images/forreal.png",
+  "description": [
+  "Artwork created for a single released for my music under the name AiK HiFi",
+  "The artwork was created using a Self-Similarity Matrix, a musical analysis technique",
+  "An SSM works by comparing each element of a feature sequence with all other elements, recurring patterns become visible along the diagonal of the picture",
+  "This is useful for identify the musical structure of a piece, helping to identify choruses and verses for example"
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "INSTAGRAM EYES: EXPERIMENT",
+  "technologies": ["Open-frameworks", "InstagramAPI", "Python"],
+  "image": "media/images/eyes.jpg",
+  "description": [
+  "I thought it was interesting that we many of us collect photos we see on Instagram by saving. This collection is personal and reflects what we find aesthetically pleasing.",
+  "I decided to use the InstagramAPI to download the 1000s of posts I have saved and experiment on them. I used Python code to identify all pictures with faces and then to make new images cropped to these faces. I also used Python to find the coordinates of various facial features.",
+  "In this experiment I used to the eye positions of images to create an overlapping and mirroring effect in Openframeworks."
+  ],
+  "bgColor": "colour2"
+  },
+  {
+  "title": "SHIFTING EUCLIDEAN RHYTHM GENERATOR: WEB APP",
+  "technologies": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
+  "image": "media/images/serg.png",
+  "description": [
+  "Shifting Euclidean Rhythm Generator Web App",
+  "SERG is a music composition tool inspired by Steve Reich's concept of phase shifting rhythms.",
+  "It uses Godfried Toussaint's Euclidean Rhythms to create unique musical beats that change over time as they shift in and out of phase.",
+  "SERG has two sets of phase shifting rhythms that are played in sync."
+  ],
+  "bgColor": "colour2"
+  },
+  {
+    "title": "SUPER-COLLIDER DISTORTION EFFECTS: DIDACTIC TOOL",
+    "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
+    "image": "media/images/Teach_Mode.png",
+    "description": [
+      "The project brief was to implement a didactic tool in SuperCollider to learn and/or teach the audio effect of distortion",
+      "Created a tool that can be used in two modes, Learn and Teach",
+      "Learn mode to be used by a novice student to learn the basic principles of the audio effect",
+      "Teach mode to be used by a Teacher to demonstrate a greater number of more technical aspects of distortion"
+    ],
+    "bgColor": "colour2"
+  },
+  {
+    "title": "M-RAM: INSTALL-ATION",
+    "technologies": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
+    "image": "media/images/MRAM.png",
+    "description": [
+      "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
+      "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
+      "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it. He felt that indoor environments should have music that \"induce calm and a space to think\" while remaining \"as ignorable as it is interesting\""
+    ],
+    "bgColor": "colour2"
+  }
+]
