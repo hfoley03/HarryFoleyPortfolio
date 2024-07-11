@@ -141,6 +141,17 @@
   "bgColor": "colour2"
   },
   {
+    "title": "MusicTraces: Multi Smart Sensory Environment",
+    "technologies": [ "Generative Music", "Unity", "HCI"],
+    "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
+    "description": [
+    "MusicTraces is a post-doc research project at I3Lab that I became involved with during a course called Advanced User Interfaces. The project is based in the MagicRoom, a multi sensory smart environment that includes two projectors, Kinect camera and smart objects.",
+    "The program is used by two young adults with learning difficulties. My team was given the challenge of finding a way to allow users with no musical experience control over the music element of the experience.",
+    "The solution I designed leveraged variable length Markov Chains. We took a dataset of chords for 50 pop songs in the key of C Major and built up a stochastic system to predict the next chord in a sequence of length 1-5 chords. The system keeps track of the previous chords played and then exposes the two most likely next options to the users. The users can select the next chord by both standing in one of two circles on the floor. The solution first has the advantage of always keeping the progression musical while allowing the users control, and secondly encourages collaboration between users as well as promoting close body proximity, something that the target users would in general avoid."
+    ],
+    "bgColor": "colour2"
+    },
+  {
     "title": "SUPER-COLLIDER DISTORTION EFFECTS: DIDACTIC TOOL",
     "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
     "image": "media/images/Teach_Mode.png",
