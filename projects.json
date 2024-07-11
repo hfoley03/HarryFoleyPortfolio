@@ -33,6 +33,31 @@
   "bgColor": "colour2"
   },
   {
+    "title": "ANEMONE: WEBSITE",
+    "technologies": ["Nuxt.js", "Tailwind", "Prompt Engineering", "Chatbot"],
+    "image": "media/images/AnemoneHome.png",
+    "description": [
+    "Hypermedia course project to implement a website for a Women's Rights Centre. The website can be viewed <a href='https://anemone-n2be.vercel.app' target='_blank'>here</a>.",
+    "One of my contributions to the project was prompt engineering a conversational agent to act as a psychological counsellor using the OpenAI api, an interesting challenge.",
+    "Site implementation included both frontend and backend. Technologies used include Nuxt.js, Tailwind, Vercel and Supabase."
+    ],
+    "bgColor": "colour2"
+    },
+  {
+    "title": "TRUE POLYPHONIC EXPANDABLE VOICE SYNTH: BENG FINAL YEAR PROJECT",
+    "technologies": ["Audio", "MIDI", "C/C++", "PureData", "Arduino", "Teensy", "Prototype"],
+    "image": "media/images/fyp1.jpg",
+    "description": [
+      "BEng Final Year Project",
+      "Digital Synthesizer concept that can grow with player's needs & budget",
+      "Modular design allowing the user to increase the number of notes that can be played simultaneously through the addition of modules.",
+      "The two Voice Modules act as individual monophonic synthesizers and a Central Console, which is used to combine multiple Voice Modules.",
+      "Each Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine.",
+      "The Central Console routes MIDI messages to the Voice Modules and mixes their audio signals to create an instrument that behaves as one polyphonic instrument."
+    ],
+    "bgColor": "colour2"
+  },
+  {
   "title": "VIDEO MANIPU-LATION: EXPERIMENT",
   "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
   "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
@@ -141,7 +166,7 @@
   "bgColor": "colour2"
   },
   {
-    "title": "MusicTraces: Multi Smart Sensory Environment",
+    "title": "MUSICTRACES: MULTI SENSORY SMART ENVIRONMENT",
     "technologies": [ "Generative Music", "Unity", "HCI"],
     "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
     "description": [

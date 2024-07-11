@@ -105,7 +105,7 @@
           descCell.className = `blankCell mediumText distribute ${project.bgColor}`;
           project.description.forEach(desc => {
             let descP = document.createElement('p');
-            descP.textContent = desc;
+            descP.innerHTML = desc;
             descCell.appendChild(descP);
           });
           grid.appendChild(descCell);
