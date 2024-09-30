@@ -22,6 +22,16 @@
   "bgColor": "colour2"
   },
   {
+    "title": "HUNT: VULKAN VIDEO GAME",
+    "technologies": ["Vulkan", "Computer Graphics", "C++", "Shaders"],
+    "image": "media/images/night_screen.jpeg",
+    "description": [
+    "3D animal hunting game in Vulkan. Custom shaders implementing Blinn-Phong, Oren-Nayar, Normal Mapping and Sky Box techniques",
+    "The goal of the game is to hunt all of the animals inside of the map in the time given. The user is free to roam around the map, trying to find them all and shooting at them with its rifle. Aiming can be done with or without a scope, and during the night a torch can be activated to improve the visibility"
+    ],
+    "bgColor": "colour2"
+    },
+  {
   "title": "PHONE-SAMPLER: MOBILE APP",
   "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
   "image": "media/images/Mobile.png",
