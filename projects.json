@@ -14,7 +14,7 @@
   {
   "title": "Future Worlds",
   "kind" : "Museum Installation",
-  "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visual-isation"],
+  "technologies": ["Open-frameworks", "Cellulare Automata", "Computer Vision", "Data Visual-isation"],
   "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
   "description": [
   "This project takes data from the World3 model and transforms it to audio visual representation to promote awareness of our control of our planet’s future. ",
@@ -52,7 +52,7 @@
     "technologies": ["Nuxt.js", "Tailwind", "Prompt Engineering", "Chatbot"],
     "image": "media/images/AnemoneHome.png",
     "description": [
-    "Hypermedia course project to implement a website for a Women's Rights Centre. The website can be viewed <a href='https://anemone-n2be.vercel.app' target='_blank'>here</a>.",
+    "Hypermedia course project to implement a website for a Women's Rights Centre.",
     "One of my contributions to the project was prompt engineering a conversational agent to act as a psychological counsellor using the OpenAI api, an interesting challenge.",
     "Site implementation included both frontend and backend. Technologies used include Nuxt.js, Tailwind, Vercel and Supabase."
     ],
@@ -61,7 +61,7 @@
   {
     "title": "Polyphonic Synthesizer",
     "kind" : "Final Year Project",
-    "technologies": ["Audio", "MIDI", "C/C++", "PureData", "Arduino", "Teensy", "Prototype"],
+    "technologies": ["Audio", "MIDI", "PureData", "Arduino"],
     "image": "media/images/fyp1.jpg",
     "description": [
       "BEng Final Year Project",
@@ -89,7 +89,7 @@
   {
   "title": "Street Racer",
   "kind" : "Music Visualizer",
-  "technologies": ["Open-frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
+  "technologies": ["Open-frameworks", "FFT", "Computer Vision", "Video Processing"],
   "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
   "description": [
   "Generative Audio Visualizer",
@@ -197,8 +197,7 @@
     "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
     "description": [
     "MusicTraces is a post-doc research project at I3Lab that I became involved with during a course called Advanced User Interfaces. The project is based in the MagicRoom, a multi sensory smart environment that includes two projectors, Kinect camera and smart objects.",
-    "The program is used by two young adults with learning difficulties. My team was given the challenge of finding a way to allow users with no musical experience control over the music element of the experience.",
-    "The solution I designed leveraged variable length Markov Chains. We took a dataset of chords for 50 pop songs in the key of C Major and built up a stochastic system to predict the next chord in a sequence of length 1-5 chords. The system keeps track of the previous chords played and then exposes the two most likely next options to the users. The users can select the next chord by both standing in one of two circles on the floor. The solution first has the advantage of always keeping the progression musical while allowing the users control, and secondly encourages collaboration between users as well as promoting close body proximity, something that the target users would in general avoid."
+    "The program is used by two young adults with learning difficulties. My team was given the challenge of finding a way to allow users with no musical experience control over the music element of the experience."
     ],
     "bgColor": "colour2"
     },
@@ -223,7 +222,7 @@
     "description": [
       "M-RAM, Musical Room Ambience Monitor, is designed to provide generative ambient music and sounds for a user’s bedroom.",
       "M-RAM uses the time of day, ambient light and motion to alter the sound and music that is played. It is primarily based in SuperCollider and also uses Arduino for data acquisition and Processing for GUI",
-      "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it. He felt that indoor environments should have music that \"induce calm and a space to think\" while remaining \"as ignorable as it is interesting\""
+      "The project was inspired by the concept behind Brian Eno’s pioneering album, ‘Ambient 1: Music for Airports’, where he played with the idea that an indoor space should have a soundtrack that is suited to it."
     ],
     "bgColor": "colour2"
   }
