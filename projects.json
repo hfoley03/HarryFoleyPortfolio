@@ -1,17 +1,19 @@
 [
   {
-  "title": "MUSIC & ART THERAPY: THESIS",
-  "technologies": ["Augmented Reality", "Hololens 2", "Unity", "Generative Music", "HCI"],
+  "title": "Sound Shaping",
+  "kind" : "Thesis",
+  "technologies": ["Augmented Reality", "Hololens", "Unity", "HCI"],
   "video": "https://www.youtube.com/embed/QRWjeqrhi9Y?si=yZgF6-dcdoohF0Xd",
   "description": [
-  "My current thesis at I3Lab in Music & Art Therapy Activity in Augmented Reality for people with neurodevelopmental conditions. The projects research questions focus on emotional regulation, sustained & selective attention, and engagement through performance.",
-  "Using the Hololens 2, users are able to draw in their environment in 3D, while also creating an abstract musical interface through their drawings. ",
-  "The project has been co-designed with Fraternità e Amicizia, an arts therapy centre in Milano. User Testing will take place at their three centres in July."
+  "SoundShaping is an augmented reality application designed to promote creative expression and art therapy, specifically for individuals with neurodevelopmental disorders",
+  "The system leverages the Microsoft Hololens 2 and incorporates interactive drawing, sculpting, and musical composition to provide a multi-sensory, immersive experience.",
+  "This project combines 3D drawing mechanics and music co-creation, allowing users to draw in virtual space, interact with their drawings, and generate harmonious music without the need for musical training."
   ],
   "bgColor": "colour2"
   },
   {
-  "title": "FUTURE WORLDS: MUSEUM INSTALL-ATION",
+  "title": "Future Worlds",
+  "kind" : "Museum Installation",
   "technologies": ["Open-frameworks", "Cellulare Automata", "OpenCV", "Data Visual-isation"],
   "video": "https://www.youtube.com/embed/T11EhbCNm2U?si=nWb5U2FxH-zgUODz",
   "description": [
@@ -22,7 +24,8 @@
   "bgColor": "colour2"
   },
   {
-    "title": "HUNT: VULKAN VIDEO GAME",
+    "title": "Hunt",
+    "kind" : "Vulkan Video Game",
     "technologies": ["Vulkan", "Computer Graphics", "C++", "Shaders"],
     "image": "media/images/night_screen.jpeg",
     "description": [
@@ -32,7 +35,8 @@
     "bgColor": "colour2"
     },
   {
-  "title": "PHONE-SAMPLER: MOBILE APP",
+  "title": "Phone Sampler",
+  "kind" : "Android App",
   "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Audio"],
   "image": "media/images/Mobile.png",
   "description": [
@@ -43,7 +47,8 @@
   "bgColor": "colour2"
   },
   {
-    "title": "ANEMONE: WEBSITE",
+    "title": "Anemone",
+    "kind" : "Website",
     "technologies": ["Nuxt.js", "Tailwind", "Prompt Engineering", "Chatbot"],
     "image": "media/images/AnemoneHome.png",
     "description": [
@@ -54,7 +59,8 @@
     "bgColor": "colour2"
     },
   {
-    "title": "TRUE POLYPHONIC EXPANDABLE VOICE SYNTH: BENG FINAL YEAR PROJECT",
+    "title": "Polyphonic Synthesizer",
+    "kind" : "Final Year Project",
     "technologies": ["Audio", "MIDI", "C/C++", "PureData", "Arduino", "Teensy", "Prototype"],
     "image": "media/images/fyp1.jpg",
     "description": [
@@ -68,7 +74,8 @@
     "bgColor": "colour2"
   },
   {
-  "title": "VIDEO MANIPU-LATION: EXPERIMENT",
+  "title": "Pixel Control",
+  "kind" : "Openframeworks Experiment",
   "technologies": ["Open-frameworks", "OpenCV", "Video Processing"],
   "video": "https://www.youtube.com/embed/D71MC-XWvCQ?si=l4jc8rEtn9-f7KCk",
   "description": [
@@ -80,7 +87,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "STREET RACING: VISUALIZER",
+  "title": "Street Racer",
+  "kind" : "Music Visualizer",
   "technologies": ["Open-frameworks", "FFT", "Computer Vision", "OpenCV", "Video Processing"],
   "video": "https://www.youtube.com/embed/0tSq_saOhnY?si=hxM0R92Bv1drp6Pa",
   "description": [
@@ -94,7 +102,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "SWARM COMP TEST 2: EXPERIMENT",
+  "title": "Swarm Composition 2",
+  "kind" : "Openframeworks Experiment",
   "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
   "video": "https://www.youtube.com/embed/-vmMrIYvGL8?si=PU7TkQoNO9GWr9Vt",
   "description": [
@@ -108,7 +117,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "SWARM COMP TEST 3: EXPERIMENT",
+  "title": "Swarm Composition 3",
+  "kind" : "Openframeworks Experiment",
   "technologies": ["Open-frameworks", "OSC", "Ableton", "Boid", "Midi"],
   "video": "https://www.youtube.com/embed/CpNsquvnUjo?si=wfO5seP6rIOXAmAf&start=70&vq=hd1080",
   "description": [
@@ -119,7 +129,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "VALENTINE'S DJ MIX: VISUALIZER",
+  "title": "Valentine's DJ Mix",
+  "kind" : "Music Visualizer",
   "technologies": ["Open-frameworks", "Audio Reactive", "Perlin Noise", "FFT"],
   "video": "https://www.youtube.com/embed/2flFLtcKpk4?si=tH1okfeBUSXmZ06O",
   "description": [
@@ -130,7 +141,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "AMBIENT DJ MIX: VISUALIZER",
+  "title": "Ambient DJ Mix",
+  "kind" : "Music Visualizer",
   "technologies": ["Open-frameworks", "OSC", "Audio Reactive", "Boid", "Midi"],
   "video": "https://www.youtube.com/embed/ueWlz9tal2A?si=Jfm6kioTzApoB6dU",
   "description": [
@@ -141,7 +153,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "BABY I AM FOR REAL: MUSIC ARTWORK",
+  "title": "Baby I am For Real",
+  "kind" : "Album Artwork",
   "technologies": ["Signal Analysis", "Audio", "Librosa", "Python", "Digital Art", "Music"],
   "image": "media/images/forreal.png",
   "description": [
@@ -153,7 +166,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "INSTAGRAM EYES: EXPERIMENT",
+  "title": "Instagram Eyes",
+  "kind" : "Openframeworks Experiment",
   "technologies": ["Open-frameworks", "InstagramAPI", "Python"],
   "image": "media/images/eyes.jpg",
   "description": [
@@ -164,7 +178,8 @@
   "bgColor": "colour2"
   },
   {
-  "title": "SHIFTING EUCLIDEAN RHYTHM GENERATOR: WEB APP",
+  "title": "Shifting Euclidean Rhythm Generator",
+  "kind" : "Web App",
   "technologies": ["WebApp", "Audio", "MIDI", "P5.js", "HTML", "Javascript", "CSS"],
   "image": "media/images/serg.png",
   "description": [
@@ -176,7 +191,8 @@
   "bgColor": "colour2"
   },
   {
-    "title": "MUSICTRACES: MULTI SENSORY SMART ENVIRONMENT",
+    "title": "Music Traces",
+    "kind" : "Multi-Sensory Smart Environment",
     "technologies": [ "Generative Music", "Unity", "HCI"],
     "video": "https://www.youtube.com/embed/k-XbqQCHKRA?si=uTWRQyVEVfkGkxG5",
     "description": [
@@ -187,7 +203,8 @@
     "bgColor": "colour2"
     },
   {
-    "title": "SUPER-COLLIDER DISTORTION EFFECTS: DIDACTIC TOOL",
+    "title": "Distortion Effects",
+    "kind" : "Teaching Tool",
     "technologies": ["SuperCollider", "DSP", "Audio Effect", "GUI"],
     "image": "media/images/Teach_Mode.png",
     "description": [
@@ -199,7 +216,8 @@
     "bgColor": "colour2"
   },
   {
-    "title": "M-RAM: INSTALL-ATION",
+    "title": "M-RAM",
+    "kind" : "Smart Home Concept",
     "technologies": ["Python", "Interaction Design", "Generative Music", "Processing", "SuperCollider", "Arduino"],
     "image": "media/images/MRAM.png",
     "description": [

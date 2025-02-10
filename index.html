@@ -28,8 +28,8 @@
       </div>
       <div class="blankCell textCol1">PORTFOLIO</div>
       <div class="blankCell mediumText distribute colour2">
-        <p>MSc Music Engineering at Politecnico Milano [Class of 2024]</p>
-        <p>BEng Electronic & Computer Engineering at National University of Ireland [Class of 2021]</p>
+        <p>MSc Music Engineering, Politecnico Milano</p>
+        <p>BEng Electronic & Computer Engineering, University of Galway</p>
       </div>
       <div class="contact blankCell smallText" id="contact">
         <p>HFOLEY03@GMAIL.COM</p>
@@ -61,7 +61,19 @@
           // Project Title
           let titleCell = document.createElement('div');
           titleCell.className = 'blankCell projectTitleCell';
-          titleCell.textContent = project.title;
+
+
+          let titleElement = document.createElement('div');
+          titleElement.className = 'projectTitle';
+          titleElement.textContent = project.title;
+          
+          let kindElement = document.createElement('div');
+          kindElement.className = 'projectKind';
+          kindElement.textContent = project.kind;
+          
+          titleCell.appendChild(titleElement);
+          titleCell.appendChild(kindElement);
+
           grid.appendChild(titleCell);
 
           // Technologies

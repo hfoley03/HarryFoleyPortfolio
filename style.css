@@ -1,8 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  min-width: 1000px; /* Minimum width */
+  /* min-width: 1000px; Minimum width */
+  max-width: 1200px;
   min-height: 150px; /* Minimum height */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -10,7 +13,6 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow: auto; 
-
 }
 
 #p5-canvas {
@@ -25,17 +27,16 @@ html, body {
   display: grid;
   grid-template-columns: minmax(250px,2fr) 100px minmax(500px,5fr) minmax(200px,2fr);
   grid-template-rows: minmax(100px,1fr) [banner] 50px repeat(10, minmax(100px,3fr));
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   z-index: 1;
 }
 
 #contact {
-  grid-column: 1 / span 4; /* Spanning across 4 columns */
+  grid-column: 1 / span 4;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  align-items: center; /* Center vertically */
-
+  align-items: center;
 }
 
 #contact p {
@@ -51,19 +52,21 @@ html, body {
 
 .blankCell {
   opacity: 0.90;
-  /* background-color: #9A9A9A; */
   background-color: #37392E;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding:1rem;
   font-size: 70px;
   color: #37392E;
   line-height: 1;
   font-family: 'Fira Code';
   font-weight: 200;
   transition: all .3s ease;
+}
+
+.blankCell:hover {
+  opacity: 1;
 }
 
 .profileCell {
@@ -88,20 +91,32 @@ html, body {
 
 .projectTitleCell {
   background-color: #AA767C;
-  color: #37392E;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.projectTitle {
   font-size: 36px;
-  
+  color: #37392E;
+  padding: 1rem;
+}
+
+.projectKind {
+  font-size: 20px;
+  color: hsl(71, 11%, 20%);
 }
 
 .smallText {
   font-size: 16px;
   display: block;
   color: #bacac8;
-
 }
 
 .mediumText {
-  font-size: 20px;
+  font-size: 16px;
   display: block;
   color: #37392E;
   align-items: start;
@@ -148,4 +163,23 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background:#AA767C;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #37392E; 
+  border-radius: 5px;
+}
+
+/* Change scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Slightly darker grey */
 }
