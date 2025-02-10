@@ -64,12 +64,10 @@
     "technologies": ["Audio", "MIDI", "PureData", "Arduino"],
     "image": "media/images/fyp1.jpg",
     "description": [
-      "BEng Final Year Project",
       "Digital Synthesizer concept that can grow with player's needs & budget",
       "Modular design allowing the user to increase the number of notes that can be played simultaneously through the addition of modules.",
       "The two Voice Modules act as individual monophonic synthesizers and a Central Console, which is used to combine multiple Voice Modules.",
-      "Each Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine.",
-      "The Central Console routes MIDI messages to the Voice Modules and mixes their audio signals to create an instrument that behaves as one polyphonic instrument."
+      "Each Voice Module is based on a Teensy microcontroller running a subtractive synthesis engine. The Central Console routes MIDI messages to the Voice Modules and mixes their audio signals to create an instrument that behaves as one polyphonic instrument."
     ],
     "bgColor": "colour2"
   },
