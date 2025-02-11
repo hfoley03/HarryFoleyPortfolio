@@ -1,9 +1,19 @@
+:root {
+  --primary-color: #37392E;
+  --secondary-color: #bacac8;
+  --accent-color: #AA767C;
+  --highlight-color: hsl(71, 11%, 20%);
+  --neutral-color: #b4b4b4;
+  --text-light: #bacac8;
+  --text-dark: #37392E;
+  --scrollbar-width: 10px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
-  /* min-width: 1000px; Minimum width */
   max-width: 1200px;
-  min-height: 150px; /* Minimum height */
+  min-height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,14 +22,14 @@ html, body {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: auto; 
+  overflow: auto;
 }
 
 #p5-canvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; 
+  z-index: -1;
 }
 
 .grid {
@@ -27,8 +37,7 @@ html, body {
   display: grid;
   grid-template-columns: minmax(250px,2fr) 120px minmax(500px,5fr) minmax(200px,2fr);
   grid-template-rows: minmax(100px,1fr) 50px repeat(1, minmax(100px,2fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-gap: 1rem;
   z-index: 1;
 }
 
@@ -44,25 +53,26 @@ html, body {
   margin: 0;
 }
 
-.contact a {
-  text-decoration: none; 
-  color: inherit; 
-  cursor: pointer; 
+.contact a,
+.profileCell a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .blankCell {
   opacity: 0.90;
-  background-color: #37392E;
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:1rem;
+  padding: 1rem;
   font-size: 70px;
-  color: #37392E;
+  color: var(--primary-color);
   line-height: 1;
   font-family: 'Fira Code';
   font-weight: 200;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .blankCell:hover {
@@ -70,58 +80,42 @@ html, body {
 }
 
 .profileCell {
-  background-color: #37392E;
-  color: #bacac8;
-
-}
-
-.profileCell a {
-  text-decoration: none; 
-  color: inherit; 
-  cursor: pointer; 
-}
-
-.profileCell a:link,
-.profileCell a:visited,
-.profileCell a:hover,
-.profileCell a:active {
-  text-decoration: none;
-  color: inherit;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .projectTitleCell {
-  background-color: #AA767C;
+  background-color: var(--accent-color);
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .projectTitle {
   font-size: 36px;
-  color: #37392E;
+  color: var(--primary-color);
   padding: 1rem;
 }
 
 .projectKind {
   font-size: 20px;
-  color: hsl(71, 11%, 20%);
+  color: var(--highlight-color);
 }
 
 .smallText {
   font-size: 16px;
   display: block;
-  color: #bacac8;
+  color: var(--text-light);
   text-align: center;
 }
 
 .mediumText {
   font-size: 16px;
   display: block;
-  color: #37392E;
+  color: var(--text-dark);
   align-items: start;
-
 }
 
 .resizable-image {
@@ -129,10 +123,9 @@ html, body {
   max-width: 100%;
   max-height: 100%;
   height: auto;
-  width: auto; 
-  object-fit: contain; 
+  width: auto;
+  object-fit: contain;
   opacity: 1.0;
-
 }
 
 .alphaOverride {
@@ -140,23 +133,20 @@ html, body {
 }
 
 .colour1 {
-  background-color: 	#b4b4b4;
+  background-color: var(--neutral-color);
 }
 
 .colour2 {
-  background-color: #bacac8;
-  color: #37392E;
-
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .textCol1 {
-  color: #bacac8;
+  color: var(--text-light);
 }
 
-
-
 .rotated-text {
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
   font-size: 32px;
 }
 
@@ -167,20 +157,19 @@ html, body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px; 
+  width: var(--scrollbar-width);
 }
 
 ::-webkit-scrollbar-track {
-  background:#AA767C;
+  background: var(--accent-color);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #37392E; 
+  background: var(--primary-color);
   border-radius: 5px;
 }
 
-/* Change scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Slightly darker grey */
+  background: #555;
 }

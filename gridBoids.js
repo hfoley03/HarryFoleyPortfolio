@@ -7,9 +7,13 @@ function setup() {
   fill(255);
   frameRate(30);
 
-  // Create initial set of boids
-  for (let i = 0; i < 250; i++) {
-    boids.push(new Boid(random(windowWidth), random(windowHeight)));
+  let num = 15;
+  for (let i = 0; i < windowWidth/num; i++) 
+    {
+    for (let j = 0; j < windowHeight/num; j++) 
+        {
+        boids.push( new Boid(i * num, j * num));
+    }
   }
 }
 
@@ -38,36 +42,42 @@ function windowResized() {
 class Boid {
   constructor(x, y) {
     this.position = createVector(x, y);
+    this.normalPosition = createVector(x, y);
     this.velocity = p5.Vector.random2D();
     this.acceleration = createVector(0, 0);
     this.maxSpeed = 10;
     this.maxForce = 1;
+    this.damping = 0.65;
   }
 
   update() {
-    // let target1 = createVector(mouseX, mouseY);
-    // let target2 = createVector(windowWidth - mouseX, windowHeight - mouseY);
 
-    let target1 = createVector(20, mouseY);
-    let target2 = createVector(windowWidth - 20, windowHeight - mouseY);
+    let target = createVector(this.normalPosition.x, this.normalPosition.y);
 
-    let force1 = this.seek(target1);
-    let force2 = this.seek(target2);
+    if( dist(mouseX,mouseY, this.normalPosition.x, this.normalPosition.y) < 100){
+        let targetMouse = createVector(mouseX, mouseY);
+        let forceMouse = this.seek(targetMouse, 0.5);
+        this.applyForce(forceMouse);
+    } else {
+        let forceReturn = this.seek(target, 0.2);
+        this.applyForce(forceReturn);
+    }
 
-    this.applyForce(force1);
-    this.applyForce(force2);
 
+
+    this.velocity.mult(this.damping);
     this.velocity.add(this.acceleration);
     this.velocity.limit(this.maxSpeed);
     this.position.add(this.velocity);
     this.acceleration.mult(0);
+
   }
 
-  seek(target) {
+  seek(target, maxForce) {
     let desired = p5.Vector.sub(target, this.position);
     desired.setMag(this.maxSpeed);
     let steer = p5.Vector.sub(desired, this.velocity);
-    steer.limit(this.maxForce);
+    steer.limit(maxForce);
     return steer;
   }
 
